@@ -61,6 +61,13 @@ public class SW implements CommandExecutor{
 						im.setDisplayName(ChatColor.GREEN + "" + ChatColor.ITALIC + "Skyblock Arenas");
 						gem.setItemMeta(im);
 						p.getInventory().addItem(gem);
+						
+						//shop
+						ItemStack shop = new ItemStack(Material.DIAMOND);
+						ItemMeta si = shop.getItemMeta();
+						si.setDisplayName(ChatColor.AQUA + "" + ChatColor.ITALIC + "Shop");
+						shop.setItemMeta(si);
+						p.getInventory().setItem(9, shop);
 
 					} else if(!Main.getInstance().teleportToLobby(p)){
 

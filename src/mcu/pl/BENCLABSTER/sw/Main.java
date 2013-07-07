@@ -4,6 +4,7 @@ import java.io.File;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+import mcu.pl.BENCLABSTER.sw.IconMenu.OptionClickEvent;
 import mcu.pl.BENCLABSTER.sw.Commands.SW;
 import mcu.pl.BENCLABSTER.sw.Configs.ConfigManager;
 import mcu.pl.BENCLABSTER.sw.Listeners.PlayerDeath;
@@ -23,6 +24,8 @@ import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.block.Action;
+import org.bukkit.event.inventory.InventoryClickEvent;
+import org.bukkit.event.inventory.InventoryInteractEvent;
 import org.bukkit.event.player.PlayerInteractEvent;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.plugin.PluginManager;
