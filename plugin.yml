@@ -1,0 +1,13 @@
+name: SBW
+main: mcu.pl.BENCLABSTER.sw.Main
+version: 1.6
+author: BENCLABSTER and HyperLiink
+description: >
+             Skyblock warriors map on MCU!
+commands:
+    skyblockw:
+        description: Index command for SkyblockWarriors.
+        aliases: [sw]
+        usage: /<command> arguments
+    test:
+        description: test
