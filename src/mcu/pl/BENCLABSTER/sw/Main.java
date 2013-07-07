@@ -170,7 +170,7 @@ public class Main extends JavaPlugin implements Listener{
 	    this.plugin = this;
 	  }
 	
-	//ArenaMenu
+	//ArenaMenu Manager
 	@EventHandler
 	public void BookClickEvent(PlayerInteractEvent e) {
 		final Player p = e.getPlayer();
