@@ -202,6 +202,7 @@ public class Main extends JavaPlugin implements Listener{
 		                if(event.getName().contains("7")) {
 		                	p.performCommand("sw join 7");
 		                }
+		                event.setWillDestroy(true);
 		            }
 		        }, plugin)
 		        .setOption(1, new ItemStack(Material.GRASS, 1), ChatColor.GREEN + "Arena 1!")
